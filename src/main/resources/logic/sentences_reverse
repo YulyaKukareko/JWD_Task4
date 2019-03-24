@@ -1,0 +1,58 @@
+Autoboxing and unboxing lets developers write cleaner code, making it easier to read.
+pi = 3.1416
+absolute value of -8 = 8
+The program prints the following:
+}
+}
+return (i < 0) ? -i : i;
+public static int absoluteValue(int i) {
+}
+System.out.println("pi = " + pi);
+double pi = ld.get(0);
+// 2. Unboxing through assignment
+ld.add(3.1416); // Π is autoboxed through method invocation.
+List<Double> ld = new ArrayList<>();
+System.out.println("absolute value of " + i + " = " + absVal);
+int absVal = absoluteValue(i);
+// 1. Unboxing through method invocation
+Integer i = new Integer(-8);
+public static void main(String[] args) {
+public class Unboxing {
+import java.util.List;
+import java.util.ArrayList;
+The Unboxing example shows how this works:
+-assigned to a variable of the corresponding primitive type.
+-passed as a parameter to a method that expects a value of the corresponding primitive type;
+The Java compiler applies unboxing when an object of a wrapper class is:Converting an object of a wrapper type (Integer) to its corresponding primitive (int) value is called unboxing. 
+}
+return sum;
+sum += i.intValue();
+if (i.intValue() % 2 == 0)
+for (Integer i : li)
+int sum = 0;
+public static int sumEven(List<Integer> li) {
+The compiler does not generate an error because it invokes the intValue method to convert an Integer to an int at runtime:Because the remainder (%) and unary plus (+=) operators do not apply to Integer objects, you may wonder why the Java compiler compiles the method without issuing any errors. 
+}
+return sum;
+sum += i;
+if (i % 2 == 0)
+for (Integer i: li)
+int sum = 0;
+public static int sumEven(List<Integer> li) {
+Consider the following method:
+-assigned to a variable of the corresponding wrapper class.
+-passed as a parameter to a method that expects an object of the corresponding wrapper class;
+The Java compiler applies autoboxing when a primitive value is:Converting a primitive value (an int, for example) into an object of the corresponding wrapper class (Integer) is called autoboxing. 
+li.add(Integer.valueOf(i));
+for (int i = 1; i < 50; i += 2)
+List<Integer> li = new ArrayList<>();
+Thus, the compiler converts the previous code to the following at runtime:The compiler does not generate an error because it creates an Integer object from i and adds the object to li. Because li is a list of Integer objects, not a list of int values, you may wonder why the Java compiler does not issue a compile-time error. Although you add the int values as primitive types, rather than Integer objects, to li, the code compiles. 
+li.add(i);
+for (int i = 1; i < 50; i += 2)
+List<Integer> li = new ArrayList<>();
+Consider the following code:
+If you are not yet familiar with the syntax of generics, see the Generics (Updated) lesson.The rest of the examples in this section use generics. 
+Character ch = 'a';
+Here is the simplest example of autoboxing:
+If the conversion goes the other way, this is called unboxing.For example, converting an int to an Integer, a double to a Double, and so on. Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes. 
+Autoboxing and Unboxing

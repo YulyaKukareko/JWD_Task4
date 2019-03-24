@@ -1,4 +1,4 @@
-package by.epam.javawebtraining.kukareko.task4.model.exception.technical;
+package by.epam.javawebtraining.kukareko.task4.model.exception.logical;
 
 import by.epam.javawebtraining.kukareko.task4.model.exception.TextException;
 

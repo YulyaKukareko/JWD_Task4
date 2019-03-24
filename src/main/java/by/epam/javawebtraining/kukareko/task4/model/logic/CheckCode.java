@@ -1,6 +1,6 @@
 package by.epam.javawebtraining.kukareko.task4.model.logic;
 
-import by.epam.javawebtraining.kukareko.task4.model.util.RegexpConstants;
+import by.epam.javawebtraining.kukareko.task4.util.RegexpConstants;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

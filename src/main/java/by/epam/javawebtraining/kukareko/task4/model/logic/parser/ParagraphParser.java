@@ -1,6 +1,6 @@
 package by.epam.javawebtraining.kukareko.task4.model.logic.parser;
 
-import by.epam.javawebtraining.kukareko.task4.model.util.RegexpConstants;
+import by.epam.javawebtraining.kukareko.task4.util.RegexpConstants;
 
 /**
  * @author Yulya Kukareko
